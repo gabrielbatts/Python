@@ -1,5 +1,5 @@
-print ('Olá Mundo');
-num1 = input ('Digite um Número: ')
-num2 = input ('Digite outro Número: ')
-num3 = num1 + num2
-print (num3)
+n1 = int(input('Digite o primeiro número: '))
+n2 = int(input('Digite o segundo número: '))
+s = n1 + n2
+print ('A soma entre {} e {} é igual: {}'.format(n1, n2, s))
+print(type(n1))
